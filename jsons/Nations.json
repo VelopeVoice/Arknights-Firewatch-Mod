@@ -1,0 +1,52 @@
+[	{
+		"name": "Firewatch Guerrilla Group",
+		"leaderName": "Captain",
+		"adjective": ["Firewatch Guerrilla Group"],
+		"startBias": ["Forest"],
+		"preferredVictoryType": "Cultural",
+		
+		"startIntroPart1": "您好，守林人游击组织的队长，为了对抗乌萨斯帝国的侵犯，我们需要强大力量的帮助。",
+		"startIntroPart2": "没必要害怕那些阴影中的敌人，这些罪人无论用什么方法躲藏，都欺骗不了您的眼睛。",
+		"declaringWar": "发现敌情，立即采取行动。",
+		"attacked": "投降吧，你没有胜算的！",
+		"defeated": "我不想再看到熊熊燃烧的战火了，让一切，都结束吧。",
+		"introduction": "你好，我是卡西米尔守林人游击组织的队长，期待与你的合作",
+		
+		"neutralHello": "我正在警戒四周，没有问题。",
+		"hateHello": "这把弩是为了审判罪人制造的。终有一天，我要用它降下最后的裁决。",
+		
+		"tradeRequest": "快要入冬了，物资也很紧张。我们这样还能坚持多久呢？",
+		
+		"outerColor": [166,174,073],
+		"innerColor": [256,256,256],
+		"uniqueName": "The Forest Trail",
+		"uniques": [ "[+1 Production] from every [Forest]","[+15]% Strength <when fighting units from a Civilization with more Cities than you>"],
+		"cities": ["根据地","支援站点","军械库","通讯中心","通讯节点","卡西米尔边境","通讯节点","卡西米尔边境","通讯节点","卡西米尔边境","支援站点","通讯节点","卡西米尔边境","通讯节点","支援站点"]
+	},
+	{
+		"name": "Ursus Empire",
+		"leaderName": "Emperor",
+		"adjective": ["Ursus Empire"],
+		"startBias": ["Tundra"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "各个国家都有自称是卫士的人。要被保护的东西太多，自称卫士的人也实在太多。这些人大多腐败且无能，我们则因我们捍卫的事物而卓越。",
+		"startIntroPart2": "我们卫护的是乌萨斯帝国的未来!",
+		"declaringWar": "我所在的地方，即是乌萨斯的领土！",
+		"attacked": "乌萨斯帝国是我双手的衍生！",
+		"defeated": "帝国的士兵们，难道是为了这种没有尊严的事领受皇帝的恩惠吗？太荒谬了！ ",
+		"introduction": "我是乌萨斯帝国的皇帝，希望你能遵守规矩。",
+		
+		"neutralHello": "我们向你走来，你是否会后退？",
+		"hateHello": "你犯下的罪行和你掌控的秘密，依旧令你背负诸多罪责。",
+		
+		"tradeRequest": "乌萨斯的善举与恶行并重，在你面对我们的恶行时，也要面对我们善举培养的一切。",
+		
+		"outerColor": [205,55,0],
+		"innerColor": [249,237,069],
+		"uniqueName": "Black Snow",
+		"uniques": ["Earn [15]% of killed [Military] unit's [Strength] as [Science]","[-15]% maintenance costs <for [Land] units>","Double quantity of [Iron] produced","Double quantity of [Aluminum] produced"],
+
+		"cities": ["圣骏堡","切尔诺伯格","乌萨斯第一集团军","乌萨斯第二集团军","乌萨斯第三集团军","乌萨斯第四集团军","乌萨斯第五集团军","乌萨斯第六集团军","乌萨斯第七集团军","乌萨斯第八集团军","乌萨斯第九集团军","乌萨斯第十集团军"]
+	},
+]

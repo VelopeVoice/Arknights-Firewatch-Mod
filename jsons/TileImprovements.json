@@ -1,0 +1,47 @@
+[	
+	{
+		"name": "Infected Farms",
+		"uniqueTo": "Ursus Empire",
+		"terrainsCanBeBuiltOn": ["Snow","Desert","Fallout"],
+		"gold": 1,
+		"turnsToBuild": 4,
+		"techRequired": "Mining",
+		"improvingTech": "Chemistry",
+		"improvingTechStats": {"production": 3}
+	},
+	{
+		"name": "Command Center",
+		"faith": 6,
+		"uniques": ["Great Improvement","Land","Gives a defensive bonus of [100]%","Adjacent enemy units ending their turn take [20] damage",]
+	},
+	{
+		"name": "Rhodes' Workplace",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
+		"culture": 2,
+		"faith": 2,
+		"turnsToBuild": 6,
+		"techRequired": "Pharmaceuticals",
+		"improvingTech": "Globalization",
+		"improvingTechStats": {"faith": 2}
+	},
+	{
+		"name": "MinePlus",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"production": 3,
+		"gold": 1
+		"turnsToBuild": 10,
+		"techRequired": "Industrialization",
+		"uniques": ["[+2 Gold] <after discovering [Ecology]>"],
+	},
+	{
+		"name": "Forestry Bureau",
+		"uniqueTo": "Firewatch Guerrilla Group",
+		"terrainsCanBeBuiltOn": ["Forest"],
+		"food": 1,
+		"turnsToBuild": 7,
+		"uniques": ["Cannot be built on [Bonus resource] tiles",
+			"[+2 Production] for each adjacent [City center]",
+			"[+1 Food, +1 Production] from [River] tiles <after discovering [Ecology]>"]
+		"techRequired": "Construction",
+	},
+]

@@ -1,0 +1,572 @@
+
+game.png
+size: 2048,2048
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+NationIcons/Ursus Empire
+  rotate: false
+  xy: 2, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Firewatch Guerrilla Group
+  rotate: false
+  xy: 614, 208
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Caster
+  rotate: false
+  xy: 354, 169
+  size: 18, 28
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Great Caster
+  rotate: false
+  xy: 354, 169
+  size: 18, 28
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Sniper
+  rotate: false
+  xy: 104, 416
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BulidingsIcons/CitWars
+  rotate: false
+  xy: 302, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BulidingsIcons/Faith Altar
+  rotate: false
+  xy: 402, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Infected Farms
+  rotate: false
+  xy: 2, 104
+  size: 40, 40
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Command Center
+  rotate: false
+  xy: 43, 104
+  size: 40, 40
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Rhodes' Workplace
+  rotate: false
+  xy: 2, 149
+  size: 40, 40
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/MinePlus
+  rotate: false
+  xy: 43, 149
+  size: 40, 40
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/SupportAirCraft
+  rotate: false
+  xy: 102, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Firewatch Sniper
+  rotate: false
+  xy: 308, 208
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Firewatch Quick Shot
+  rotate: false
+  xy: 308, 208
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/FirewatchKrabby
+  rotate: false
+  xy: 614, 208
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Ranger
+  rotate: false
+  xy: 614, 208
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Hunter
+  rotate: false
+  xy: 614, 208
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Kazimierz Reinforcements
+  rotate: false
+  xy: 102, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Mirage Tank
+  rotate: false
+  xy: 614, 208
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Vehicle of Launching Missile
+  rotate: false
+  xy: 614, 208
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Tactics Missile
+  rotate: false
+  xy: 614, 208
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/158_milu
+  rotate: false
+  xy: 308, 208
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Sarkaz Mercenary
+  rotate: false
+  xy: 716, 311
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/The Radiant Knight
+  rotate: false
+  xy: 302, 416
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/CitWar
+  rotate: false
+  xy: 104, 208
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Sarkastodon
+  rotate: false
+  xy: 818, 415
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Raiders
+  rotate: false
+  xy: 716, 415
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Ursus Artillery
+  rotate: false
+  xy: 410, 311
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Empire Bomber
+  rotate: false
+  xy: 3, 208
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Picketing the infected
+  rotate: false
+  xy: 105, 311
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Empire Incinerator
+  rotate: false
+  xy: 410, 311
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Ursus Artillery
+  rotate: false
+  xy: 2, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Pionner
+  rotate: false
+  xy: 207, 311
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/UrsusCaster
+  rotate: false
+  xy: 354, 169
+  size: 18, 28
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+  UnitIcons/Shield Guard
+  rotate: false
+  xy: 207, 311
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Emperor's Blade
+  rotate: false
+  xy: 206, 208
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Patriot
+  rotate: false
+  xy: 206, 416
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/The Emperor's Guards
+  rotate: false
+  xy: 206, 208
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Infected Slava
+  rotate: false
+  xy: 410, 208
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Caster
+  rotate: false
+  xy: 346, 169
+  size: 36, 28
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Great Caster
+  rotate: false
+  xy: 346, 169
+  size: 36, 28
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Sniper
+  rotate: false
+  xy: 581, 137
+  size: 36, 28
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Firewatch Sniper
+  rotate: false
+  xy: 581,104
+  size: 36, 28
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Firewatch Quick Shot
+  rotate: false
+  xy: 618,104
+  size: 36, 28
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Firewatch Radio
+  rotate: false
+  xy: 654,104
+  size: 36, 28
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/158_milu
+  rotate: false
+  xy: 690,104
+  size: 36, 28
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Sarkaz Mercenary
+  rotate: false
+  xy: 690,132
+  size: 36, 28
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/FirewatchKrabby
+  rotate: false
+  xy: 618,132
+  size: 36, 28
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Ranger
+  rotate: false
+  xy: 654,160
+  size: 36, 28
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Hunter
+  rotate: false
+  xy: 654,160
+  size: 36, 28
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Kazimierz Reinforcements
+  rotate: false
+  xy: 654,132
+  size: 36, 28
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Mirage Tank
+  rotate: false
+  xy: 618,160
+  size: 36, 28
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Vehicle of Launching Missile
+  rotate: false
+  xy: 690,160
+  size: 36, 28
+  orig: 100, 100
+  offset: 0, 0
+  index: -1  
+TileSets/FantasyHex/Units/The Radiant Knight
+  rotate: false
+  xy: 878, 104
+  size: 36, 28
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/SupportAirCraft
+  rotate: false
+  xy: 144, 170
+  size: 36, 28
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Ursus Artillery
+  rotate: false
+  xy: 245, 137
+  size: 36, 28
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Picketing the infected
+  rotate: false
+  xy: 208, 137
+  size: 36, 28
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Sarkastodon
+  rotate: false
+  xy: 446, 169
+  size: 36, 28
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Raiders
+  rotate: false
+  xy: 409, 169
+  size: 36, 28
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Empire Bomber
+  rotate: false
+  xy: 107, 137
+  size: 36, 28
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Shield Guard
+  rotate: false
+  xy: 346, 137
+  size: 36, 28
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Empire Incinerator
+  rotate: false
+  xy: 114, 137
+  size: 36, 28
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Pionner
+  rotate: false
+  xy: 309, 137
+  size: 36, 28
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/UrsusCaster
+  rotate: false
+  xy: 309, 169
+  size: 36, 28
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Emperor's Blade
+  rotate: false
+  xy: 409, 137
+  size: 36, 28
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Patriot
+  rotate: false
+  xy: 446, 137
+  size: 36, 28
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/The Emperor's Guards
+  rotate: false
+  xy: 409, 137
+  size: 36, 28
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Infected Slava
+  rotate: false
+  xy: 107, 170
+  size: 36, 28
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/CitWar
+  rotate: false
+  xy: 208, 170
+  size: 36, 28
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Infected Farms
+  rotate: false
+  xy: 6, 112
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Command Center
+  rotate: false
+  xy: 46, 112
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Rhodes' Workplace
+  rotate: false
+  xy: 6, 155
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/MinePlus
+  rotate: false
+  xy: 46, 155
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+  
+game2.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/FantasyHex/Tiles/Elafia
+  rotate: false
+  xy: 1270, 908
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Elafia+Pasture
+  rotate: false
+  xy: 1966, 1249
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+  TileSets/FantasyHex/Tiles/Tundra+Forest+Elafia+Pasture
+  rotate: false
+  xy: 1390, 841
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Grassland+Forest+Elafia+Pasture
+  rotate: false
+  xy: 1310, 920
+  size: 32, 31
+  orig: 32, 31
+  offset: 0, 0
+  index: -1
+ResourceIcons/Elafia
+  rotate: false
+  xy: 112, 1263
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Originiums
+  rotate: false
+  xy: 1150, 875
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+ResourceIcons/Originiums
+  rotate: false
+  xy: 838, 1509
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1

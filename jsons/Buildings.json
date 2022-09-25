@@ -1,0 +1,194 @@
+[
+
+	{
+		"name": "Basic Base",
+		"hurryCostModifier": 25,
+		"requiredTech": "Masonry",
+		"uniques": ["Provides [1] [TerraPopulation]","Destroyed when the city is captured"]
+	},
+
+	{
+		"name": "Major Base",
+		"isNationalWonder": true,
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"requiredTech": "Radio",
+		"uniques": ["Consumes [3] [TerraPopulation]",
+		"Provides [5] [Heroism]",
+		"Destroyed when the city is captured", 
+		"Requires a [Basic Base] in all cities", 
+		"Cost increases by [30] per owned city"]
+	},
+	
+	{
+		"name": "Camouflage Fort",
+		"replaces": "Basic Base",
+		"uniqueTo": "Firewatch Guerrilla Group",
+		"cityStrength": 1,
+		"cityHealth": 5,
+		"hurryCostModifier": 25,
+		"requiredTech": "Masonry",
+		"uniques": ["Provides [1] [TerraPopulation]","All newly-trained [Armored] units [in this city] receive the [Barrage I] promotion","Gain a free [Walls] [in this city]","Destroyed when the city is captured"]
+	},
+	
+	{
+		"name": "Anti-Ursus Base",
+		"replaces": "Stable",
+		"uniqueTo": "Firewatch Guerrilla Group",
+		"maintenance": 1,
+		"production": 2,
+		"requiredNearbyImprovedResources": ["Horses","Deer"],
+		"greatPersonPoints": {"Great General": 1},
+		"cost": 120,
+		"hurryCostModifier": 25,
+		"uniques": ["All newly-trained [Military] units [in this city] receive the [Guerrilla Warfare] promotion",
+		"[+15]% Production when constructing [Ranged] units [in this city]",
+		"[+1 Culture] from [Horses] tiles [in this city]",
+		"[+1 Culture] from [Deer] tiles [in this city]"],
+		"requiredTech": "Horseback Riding"
+	},
+	
+		{
+		"name": "Radio Center",
+		"replaces": "Broadcast Tower",
+		"uniqueTo": "Firewatch Guerrilla Group",
+		"culture": 3,
+		"percentStatBonus": {"culture": 33},
+		"requiredBuilding": "Museum",
+		"maintenance": 3,
+		"requiredTech": "Radio",
+		"uniques": ["Provides [2] [TerraPopulation]","Destroyed when the city is captured"]
+	},	
+	
+	{
+		"name": "Mirage Device",
+		"uniqueTo": "Firewatch Guerrilla Group",
+		"cost": 125,
+		"isNationalWonder": true,
+		"cityHealth": 50,
+		"requiredBuilding": "Arsenal",
+		"hurryCostModifier": 0,
+		"requiredTech": "Ecology",
+		"uniques": ["Consumes [3] [TerraPopulation]",
+		"All newly-trained [Military] units [in this city] receive the [Camouflage I] promotion",
+		"Gain a free [Military Base] [in this city]",
+		"Requires a [Radio Center] in all cities", 
+		"Cost increases by [30] per owned city"]
+	},
+{
+		"name": "Missile Launching Silo",
+		"uniqueTo": "Firewatch Guerrilla Group",
+		"cost": 125,
+		"isNationalWonder": true,
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"cityStrength": 20,
+		"requiredTech": "Advanced Ballistics",
+		"uniques": ["Consumes [6] [TerraPopulation]",
+		"[+25]% Production when constructing [Missile] units [in this city]",
+		"Requires a [Radio Center] in all cities", 
+		"Cost increases by [30] per owned city"]
+	},
+	{
+		"name": "The Edge of the Forest",
+		"replaces": "Major Base",
+		"uniqueTo": "Firewatch Guerrilla Group",
+		"culture": 5,
+		"xpForNewUnits": 5,
+		"specialistSlots": {"Artist": 2},
+		"isNationalWonder": true,
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"requiredTech": "Plastics",
+		"uniques": ["Consumes [3] [TerraPopulation]",
+		"Provides [5] [Heroism]",
+		"[1] free [The Radiant Knight] units appear",
+		"Destroyed when the city is captured", 
+		"Requires a [Radio Center] in all cities", 
+		"Cost increases by [30] per owned city"]
+	},
+	
+	
+	
+	
+   {
+		"name": "CitWars",
+		"replaces": "Basic Base",
+		"uniqueTo": "Ursus Empire",
+		"maintenance": 1,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"cost": 500,
+		"cityStrength": 5,
+		"cityHealth": -5,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Walls",
+		"uniques": ["Provides [1] [TerraPopulation]","Destroyed when the city is captured",
+		"All newly-trained [Armored] units [in this city] receive the [Drill I] promotion",
+		"[1] free [CitWar] units appear",
+		"Gain a free [Castle] [in this city]",
+		"[+1 Production] from [Fort] tiles [in this city]",
+		"[+1 Production] from [Citadel] tiles [in this city]"
+		],
+		"requiredTech": "Chivalry"
+	},
+	{
+		"name": "Reichstag",
+		"replaces": "Palace",
+		"uniqueTo": "Ursus Empire",
+		"culture": 1,
+		"production": 4,
+		"science": 3,
+		"gold": 2,
+		"cityStrength": 3,
+		"cost": 1,
+		"isNationalWonder": true,
+		"uniques": ["Indicates the capital city","Provides a sum of gold each time you spend a Great Person",
+		"[+1 Production] from [Mine] tiles [in this city]"]
+	},
+		{
+		"name": "Territory Device",
+		"uniqueTo": "Ursus Empire",
+		"cost": 125,
+		"isNationalWonder": true,
+		"requiredBuilding": "Arsenal",
+		"cityStrength": 20,
+		"hurryCostModifier": 0,
+		"requiredTech": "Nuclear Fission",
+		"uniques": ["Consumes [3] [TerraPopulation]",
+		"All newly-trained [Military] units [in this city] receive the [Originiums Arts II] promotion",
+		"Requires a [CitWars] in all cities", 
+		"Cost increases by [30] per owned city"]
+	},
+{
+		"name": "Collapse of Fear",
+		"uniqueTo": "Ursus Empire",
+		"cost": 125,
+		"isNationalWonder": true,
+		"cityStrength": 50,
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"requiredTech": "Nuclear Fusion",
+		"uniques": ["Consumes [6] [TerraPopulation]",
+		"[+25]% Production when constructing [Armored] units [in this city]",
+		"Requires a [CitWars] in all cities", 
+		"Cost increases by [30] per owned city"]
+	},
+	{
+		"name": "Faith Altar",
+		"uniqueTo": "Ursus Empire",
+		"replaces": "Major Base",
+		"isNationalWonder": true,
+		"xpForNewUnits": 5,
+		"maintenance": 3,
+		"cityStrength": 5,
+		"hurryCostModifier": 25,
+		"requiredTech": "Atomic Theory",
+		"uniques": ["Consumes [3] [TerraPopulation]",
+		"Provides [5] [Heroism]",
+		"Destroyed when the city is captured", 
+		"Requires a [CitWars] in all cities", 
+		"Cost increases by [30] per owned city",
+		"[1] free [Patriot] units appear",
+		"[+1 Gold] from [Infected Farms] tiles [in this city]"]
+	},
+]

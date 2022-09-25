@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Resistance",
+		"era": "Renaissance era",
+		"uniques": ["[-34]% Culture cost of natural border growth [in all cities]", "Only available <before adopting [Autocracy]>","Only available <before adopting [Freedom]>", "Only available <before adopting [Order]>"],
+		"policies": [
+					{
+				"name": "Asymmetric Warfare",
+				"uniques": ["[-15]% Production when constructing [Military] units [in capital]", "New [Military] units start with [40] Experience [in capital]"],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Natural Warfare",
+				"uniques": ["[+1 Production] from every [Forest] tiles",
+				"[+1 Production] from every [Jungle] tiles",
+				"[+1] Movement <for [{Military} {Land}] units>"],
+				"row": 2,
+				"column": 1
+			},
+			{
+				"name": "Information Networks",
+				"uniques": ["[-15]% Culture cost of adopting new Policies","[+1] Sight <for [{Military} {Land}] units>"],
+				"row": 2,
+				"column": 3
+			},
+			{
+				"name": "Trial&Verdict",
+				"uniques": ["[+1 Happiness] from every [Jungle] tiles","[+1 Happiness] from every [Jungle] tiles","[+100]% Strength <vs [Barbarian] units>"],
+				"requires": ["Asymmetric Warfare"],
+				"row": 2,
+				"column": 5
+			},
+			{
+				"name": "Homesickness",
+				"uniques": ["[-50]% Unhappiness from [Population] [in capital]",
+				"[+25]% growth [in capital]"],
+				"requires": ["Trial&Verdict"],
+				"row": 3,
+				"column": 3
+			},
+			{
+				"name": "Resistance Complete",
+				"uniques": ["[+25]% Strength <for [Military] units> <during a Golden Age>",
+					"May buy [Hero] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
+				]
+			}
+		]
+	},
+]

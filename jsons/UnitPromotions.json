@@ -1,0 +1,263 @@
+[{
+		"name": "Ignore terrain cost",
+		"uniques": ["Ignores terrain cost"],
+	},
+	{
+		"name": "Originiums Arts I",
+		"uniques": ["[+10]% Strength <vs [Caster] units>","[+15]% Strength <vs [Armored] units>"],
+		"unitTypes": ["Caster","Sword","Gunpowder","Mounted","LandHero","WaterHero","AirHero"]
+	},
+	{
+		"name": "Originiums Arts II",
+		"prerequisites": ["Originiums Arts I"],
+		"uniques": ["[+15]% Strength <vs [Caster] units>","[+30]% Strength <vs [Armored] units>"],
+		"unitTypes": ["Caster","LandHero","WaterHero","AirHero"]
+	},
+	{
+		"name": "Originiums Arts III",
+		"prerequisites": ["Originiums Arts II"],
+		"uniques": ["[+45]% Strength <vs [Caster] units>","[+90]% Strength <vs [Armored] units>"],
+		"unitTypes": ["Caster","LandHero","WaterHero","AirHero"]
+	},
+	{
+		"name": "Sniper I",
+		"uniques": ["[+1] Sight"],
+		"unitTypes": ["Sniper"]
+	},
+	{
+		"name": "Sniper II",
+		"prerequisites": ["Sniper I"],
+		"uniques": ["[+1] Range"],
+		"unitTypes": ["Sniper"]
+	},
+	{
+		"name": "Sniper III",
+		"prerequisites": ["Sniper II"],
+		"uniques": ["[+1] Sight","[+1] Range"],
+		"unitTypes": ["Sniper"]
+	},
+	{
+		"name": "Forest Sniper",
+		"prerequisites": ["Sniper III"],
+		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles> <when attacking>"],
+		"unitTypes": ["Sniper"]
+	},
+	{
+		"name": "Snow Sniper",
+		"prerequisites": ["Sniper III"],
+		"uniques": ["[+33]% Strength <when fighting in [Snow] tiles> <when attacking>"],
+		"unitTypes": ["Sniper"]
+	},
+	{
+		"name": "Camouflage I",
+		"prerequisites": ["Sniper III","Originiums Arts II"],
+		"uniques": ["May withdraw before melee ([33]%)"],
+		"unitTypes": ["Sniper","Caster"]
+	},
+	{
+		"name": "Camouflage II",
+		"prerequisites": ["Camouflage I"],
+		"uniques": ["May withdraw before melee ([50]%)"],
+		"unitTypes": ["Sniper","Caster"]
+	},
+	{
+		"name": "Tactical Transceiver I",
+		"prerequisites": ["Sniper III","Originiums Arts II"],
+		"uniques": ["Can carry [1] extra [Missile] units"],
+		"unitTypes": ["Sniper","Caster"]
+	},
+	{
+		"name": "Tactical Transceiver II",
+		"prerequisites": ["Tactical Transceiver I"],
+		"uniques": ["Can carry [1] extra [Missile] units"],
+		"unitTypes": ["Sniper"]
+	},
+		{
+		"name": "Guerrilla Warfare",
+		"uniques": ["[+20]% Strength <when fighting in [Forest] tiles>"],
+	},
+	{
+		"name": "Assassinator",
+		"uniques": ["[+55]% Strength <vs [Ranged] units>",
+		"[+55]% Strength <vs [Ranged Gunpowder] units> <when attacking>",
+		"[+55]% Strength <vs [Sniper] units> <when attacking>",
+		"[+55]% Strength <vs [Caster] units> <when attacking>"],
+	},
+		{
+		"name": "The last Wendigo",
+		"uniques": ["[+15]% Strength <when fighting in [Foreign Land] tiles>",
+		"[+33]% Strength <vs [Ranged] units> <when defending>","[50]% XP gained from combat"],
+	},
+			{
+		"name": "Stay Gold",
+		"uniques": ["[+50]% Strength <vs [Hero] units>",
+		"[-50]% Strength for enemy [Armored] units in adjacent [All] tiles"],
+	},
+		{
+		"name": "Indirect Fire",
+		"prerequisites": ["Originiums Arts II","Sniper III","Accuracy III", "Barrage III", "Bombardment II", "Targeting II"],
+		"uniques": ["Ranged attacks may be performed over obstacles"],
+		"unitTypes": ["Archery","Ranged Gunpowder","Siege","Ranged Water","Sniper","Caster"]
+	},
+	{
+	"name": "Heroism I",
+		"uniques": ["[+15]% Strength"],
+		"unitTypes": ["LandHero","WaterHero","AirHero"]
+	},
+	{
+	"name": "Heroism II",
+			"prerequisites": ["Heroism I"],
+		"uniques": ["[+30]% Strength"],
+		"unitTypes": ["LandHero","WaterHero","AirHero"]
+	},
+	{
+	"name": "Heroism III",
+			"prerequisites": ["Heroism II"],
+		"uniques": ["[+60]% Strength"],
+		"unitTypes": ["LandHero","WaterHero","AirHero"]
+	},
+	{
+	"name": "Disobedience I",
+		"uniques": ["Heal this unit by [100] HP",
+		"All adjacent units heal [+5] HP when healing",
+		"[+15]% XP gained from combat"],
+		"unitTypes": ["LandHero","WaterHero","AirHero"]
+	},
+	{
+	"name": "Disobedience II",
+				"prerequisites": ["Disobedience I"],
+		"uniques": ["Heal this unit by [100] HP",
+		"All adjacent units heal [+5] HP when healing",
+		"[+30]% XP gained from combat"],
+		"unitTypes": ["LandHero","WaterHero","AirHero"]
+	},
+	{
+	"name": "Disobedience III",
+				"prerequisites": ["Disobedience III"],
+		"uniques": ["Heal this unit by [100] HP",
+		"All adjacent units heal [+10] HP when healing",
+		"[+60]% XP gained from combat"],
+		"unitTypes": ["LandHero","WaterHero","AirHero"]
+	},
+	{
+	"name": "To be brave",
+		"prerequisites": ["Heroism II","Disobedience II"],
+		"uniques": ["Heal this unit by [25] HP", 
+		"Doing so will consume this opportunity to choose a Promotion"],
+		"unitTypes": ["LandHero","WaterHero","AirHero"]
+	},
+	{
+	"name": "Heroic",
+		"prerequisites": ["Heroism II","Disobedience II"],
+		"uniques": ["May Paradrop up to [20] tiles from inside friendly territory",
+		"Ignores Zone of Control"],
+		"unitTypes": ["LandHero","WaterHero","AirHero"]
+	},
+	{
+	"name": "Hero"
+				"uniques": ["May enter foreign tiles without open borders",
+		"[+20]% Strength <when fighting in [Friendly Land] tiles>", 
+		"[+20] HP when healing <in [Friendly Land] tiles>"],
+	},
+	{
+	"name": "Heroine",
+		"uniques": ["May enter foreign tiles without open borders",
+		"[+20]% Strength <when fighting in [Friendly Land] tiles>", 
+		"[+20] HP when healing <in [Friendly Land] tiles>"],
+	}
+		{
+	"name": "Conquered",
+		"uniques": ["No movement cost to pillage",
+		"Heals [15] damage if it kills a unit",
+		"[+20]% Strength <when fighting in [Foreign Land] tiles>"],
+	},
+	{
+	"name": "Conqueress",
+		"uniques": ["No movement cost to pillage",
+		"Heals [15] damage if it kills a unit", 
+		"[+20]% Strength <when fighting in [Foreign Land] tiles>"],
+	}
+
+	{
+	"name": "Revolutionary",
+		"prerequisites": ["Heroism III",],
+		"uniques": ["Can move after attacking",
+		"[-200]% Strength for enemy [Military] units in adjacent [All] tiles"],
+	},
+	{
+	"name": "Guardian",
+		"prerequisites": ["Heroism III",],
+		"uniques": ["[+100]% Strength <when defending>","[+100]% Damage when intercepting",
+		"[2] additional attacks per turn"],
+	},
+	{
+	"name": "Avenger",
+		"prerequisites": ["Heroism III",],
+		"uniques": ["Double movement in [Land]",
+		"Double movement in [Water]",
+		"Ignores terrain cost",
+		"[+100]% Strength <when attacking>"],
+	},
+	{
+	"name": "Solomon",
+		"prerequisites": ["Disobedience III"],
+		"uniques": ["Heal this unit by [50] HP",
+		"Can build [Land] improvements on tiles",
+		"Can build [Water] improvements on tiles",
+		"[+100]% XP gained from combat"],
+	},
+		{
+	"name": "Seer",
+		"prerequisites": ["Disobedience III"],
+		"uniques": ["Heal this unit by [50] HP",
+		"[+4] Sight", "Can see over obstacles",
+		"May withdraw before melee ([100]%)"],
+	},
+		{
+	"name": "Saint",
+		"prerequisites": ["Disobedience III"],
+		"uniques": ["Cannot attack",
+		"May enter foreign tiles without open borders",
+		"Heal this unit by [50] HP",
+		"Can [Spread Religion] [100] times",
+		"Removes other religions when spreading religion",
+		"Unit will heal every turn, even if it performs an action",
+		"All adjacent units heal [+30] HP when healing"],
+	},
+	{
+	"name": "Self-sacrifice",
+		"prerequisites": ["Revolutionary","Guardian","Avenger"],
+		"uniques": ["[+1000]% Strength <when attacking>",
+		"Blast radius [5]",
+		"Self-destructs when attacking",
+		"Can start an [100]-turn golden age",
+		"Founds a new city",
+		"Founds a new city <on foreign continents>"],
+		"unitTypes": ["LandHero","WaterHero","AirHero"]
+	},
+	{
+	"name": "Convincing",
+		"prerequisites": ["Revolutionary","Guardian","Avenger","Saint","Seer","Solomon"],
+		"uniques": ["May enter foreign tiles without open borders",
+		"May capture killed [Land] units",
+		"May capture killed [Water] units",
+		"May capture killed [Aircraft] units",
+		"Can start an [100]-turn golden age",
+		"Earn [100]% of the damage done to [Military] units as [Faith]",
+		"Earn [100]% of killed [Military] unit's [Strength] as [Culture]"],
+		"unitTypes": ["LandHero","WaterHero","AirHero"]
+	},
+	{
+	"name": "Protagonist",
+		"prerequisites": ["Saint","Seer","Solomon"],
+		"uniques": ["Cannot attack",
+		"[+500]% Strength <when defending>",
+		"[+15]% Strength bonus for [Military] units within [6] tiles",
+		"Can carry [6] [Land] units",
+		"Can carry [6] [Water] units",
+		"Can carry [6] [Aircraft] units",
+		"Can start an [100]-turn golden age",
+		"Founds a new city"],
+		"unitTypes": ["LandHero","WaterHero","AirHero"]
+	}
+]

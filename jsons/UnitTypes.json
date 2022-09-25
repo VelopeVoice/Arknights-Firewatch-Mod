@@ -1,0 +1,27 @@
+[
+	{
+        "name": "Sniper",
+        "movementType": "Land",
+		"uniques": ["Can see invisible [Sinper] units","Can only attack [Ranged] units","[+50]% to Flank Attack bonuses","[+1] Sight"]
+    },
+    {
+        "name": "Caster",
+        "movementType": "Land",
+		"uniques": ["Can see invisible [Caster] units","Can only attack [Land] units"]
+    },
+	   {
+        "name": "LandHero",
+        "movementType": "Land"
+		"uniques": ["[-50]% XP gained from combat"]
+    },
+	 {
+        "name": "AirHero",
+        "movementType": "Air"
+		"uniques": ["Aircraft","[+4] Sight", "Can see over obstacles", "[-50]% XP gained from combat", "Cannot be intercepted"]
+    },
+	 {
+        "name": "WaterHero",
+        "movementType": "Water"
+		"uniques": ["[-50]% XP gained from combat"]
+    },
+]
