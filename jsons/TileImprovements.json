@@ -12,7 +12,7 @@
 	{
 		"name": "Command Center",
 		"faith": 6,
-		"uniques": ["Great Improvement","Land","Gives a defensive bonus of [100]%","Adjacent enemy units ending their turn take [20] damage",]
+		"uniques": ["Great Improvement","Unbuildable","Land","Gives a defensive bonus of [100]%","Adjacent enemy units ending their turn take [20] damage",]
 	},
 	{
 		"name": "Rhodes' Workplace",
