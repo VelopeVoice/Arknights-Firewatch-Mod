@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Arknights-Firewatch-Mod
 his mod is Doujin about Game: 'Arknights' Battles between Kazimierz Firewatch and Ursus Empire 
 =======
@@ -20,17 +19,5 @@ Based on Rekmod by ravignir
 未经授权，禁止转载。
 Any unauthorized transshipment is prohibited.
 
-原国家：卡西米尔，乌萨斯
-平衡修改后为：监正会，商业联合，无胄盟，红松骑士团，守林人游击组织，使徒，乌萨斯
+国家名：守林人游击组织，乌萨斯帝国
 
-乌萨斯整体强度仍偏高
-更新进程：
-1.0平衡性正式版
-1.1平衡性测试修正，部分英文名词修改，国家标语补全
-1.2平衡性测试修正，部分错误修正
-1.3平衡性测试修正，国家标语未添加翻译句，还原为中文
-
-1.4游戏版本更新修正，增加英雄机制，守林人游击组织独立阵营重新编写中
-
-游戏版本BUG：优先占领文明首都可能引发不可运行的错误
->>>>>>> c02ff30 (迭代更新)
